@@ -6,9 +6,12 @@ This, of course, should work for LIRC as well.
 Sends received IR code as bytes across USB-Serial following
 the IRMan protocol.  
 
-Bytes:
+# Bytes:
+
 0: Header (set to identify remote)
+
 1: Unique button code
+
 2-4: Should be 0x00, but sends rest of code incase of button overlap - IRMan.dll doesn't seem to mind...
 
 Run ".\IRRecord.exe -d IRMan.dll ..\config.cfg" to configure WinLIRC configuration file after uploading
