@@ -30,5 +30,6 @@ A SM0038 or TSMP1138 IR Receiver or similar.  Has missing pin (space) between GN
 
 Simply connect GND to GND, VCC to 5V, and the Signal Pin to a digital input of your choice (default: 2)
 
+
 AdvancedNewbie
 07/03/2018
